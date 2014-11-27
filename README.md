@@ -12,4 +12,4 @@ bower install angular-xeditable
 npm start
 ```
 
-http://localhost:8000/app/index.html
+http://localhost:8000/app/#/
