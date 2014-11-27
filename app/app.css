@@ -1,0 +1,55 @@
+header {
+	font-size: 20px;
+	margin:20px 0 30px 0;
+}
+
+.square_form {
+	padding:25px 0 50px 0;
+	border:solid 1px #000;
+ 	-moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -khtml-border-radius: 8px;
+    border-radius: 8px;
+}
+
+.editable_text {
+	margin-right: 10px;
+}
+
+.square_form input:focus {
+	outline:none;
+	border:1.5px solid black;
+	-webkit-transition:width 0.5s ease-in-out;
+}
+
+.square_form button {
+	font-size: 12px;
+	color:#fff;
+	text-transform: uppercase;
+	border:solid 1px #90EE90;
+ 	-moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -khtml-border-radius: 8px;
+    border-radius: 8px;
+	background-color: #90EE90;
+	background-image: url(fallback-gradient.svg); 
+	background-image:-webkit-gradient(linear, left top, right top, from(red), to(#006400));
+	background-image:-webkit-linear-gradient(left, #90EE90, #006400);
+	background-image:-moz-linear-gradient(left, #90EE90, #006400);
+	background-image:-o-linear-gradient(left, #90EE90, #006400);
+	background-image:linear-gradient(to right, #90EE90, #006400);
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient (GradientType=0, startColorstr=#90EE90, endColorstr=#006400)";
+	-moz-box-shadow: 1px 1px 1px 1px #ccc;
+	-webkit-box-shadow: 1px 1px 1px 1px #ccc;
+	box-shadow: 1px 1px 1px 1px #ccc;
+	filter: progid:DXImageTransform.Microsoft.Blur(PixelRadius=1,MakeShadow=true,ShadowOpacity=0.30);
+	-ms-filter: "progid:DXImageTransform.Microsoft.Blur(PixelRadius=1,MakeShadow=true,ShadowOpacity=0.30)";
+	zoom: 1;
+
+
+}
+
+.square_form .editable-error{
+	color:#f06d06;
+	font-style: italic;
+}

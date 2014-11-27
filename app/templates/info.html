@@ -1,0 +1,14 @@
+
+<header>{{title}}</header>
+
+
+<div class="square_form col-lg-4 col-md-5 col-sm-8 col-xs-12">
+  	<span>Name: </span>
+
+  	<span class="editable_text" editable-text="user.name" e-form="submitForm" onbeforesave="checkName($data)">
+    	{{ user.name || 'empty' }}
+  	</span>
+  	<button class="button_special" ng-click="submitForm.$show()" ng-hide="submitForm.$visible" >
+    	Edit
+  	</button>
+</div>
